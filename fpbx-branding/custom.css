@@ -1,0 +1,50 @@
+#footer_text {
+	visibility: hidden;
+}
+
+#login_support {
+	visibility: hidden !important;
+}
+
+#login_support + span{
+	visibility: hidden !important;
+}
+
+#login_admin + span{
+	visibility: hidden !important;
+	width: 320px !important;
+}
+
+#login_admin + span:before {
+  content:'PBX Administration';
+  font-family: 'open_sans';
+  visibility: visible;
+}
+
+/* 
+
+
+.navbar-left li:first-of-type:not(.dropdown){
+	display: none !important;
+}
+
+
+#page_Main_Overview_overview .content .container-fluid .row:first-of-type div.h4 {
+	display: none !important;
+}
+
+#page_Main_Overview_overview .content .container-fluid .row:nth-of-type(2) .text-center {
+	visibility: hidden;
+	width: 380px !important;
+}
+
+#page_Main_Overview_overview .content .container-fluid .row:nth-of-type(2) p strong {
+	visibility: visible !important;
+}
+
+#welcomepage .jumbotron h1 {
+	visibility: hidden !important;
+}
+
+
+ */
